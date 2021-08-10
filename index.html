@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kitchen Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="AddToCart.js"></script>
+  </head>
+  <body>
+      <!-- Header -->
+    <div id="containerd">
+      <div id="headerd">
+        <div id="brand">
+          <h1><a href="#">Kitchen Store</a></h1>
+        </div>
+        
+        <div id="SearchBox">
+          <form method="get">
+            <input type="text" class="text" value="Search.."/>
+            <input type="submit" class="submit" value="Search" />
+          </form>
+        </div>
+      </div>
+      <div id = "menu">
+        <ul>
+          <li><a href = "#fruits" class = "active">Fruits and Vegtables</a></li>
+          <li><a href = "#milk">Milk and Yoghurt</a></li>
+          <li><a href = "#chocolate">Chocolate</a></li>
+          <li><a href = "#chips">Chips</a></li>
+
+        </ul>
+      </div>
+    </div>
+    
+
+    <!-- Container -->
+    
+    <div class="container">
+        <section id="fruits">
+      <div class="card" id="item1">
+        <img src="Img/fruits1.jpg" height="225px" , width="225px" />
+        <div class="title">Strawberry<br />5.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item1)">Add to Cart</button>
+      </div>
+
+      <div class="card" id="item2">
+        <img src="Img/fruits2.jpg" height="225px" , width="225px" />
+        <div class="title">Mango<br />4.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item2)">Add to Cart</button>
+      </div>
+
+      <div class="card" id="item3">
+        <img src="Img/fruits3.jpg" height="225px" , width="225px" />
+        <div class="title">Lettus<br />2.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item3)">Add to Cart</button>
+      </div>
+
+      <div class="card" id="item4">
+        <img src="Img/fruits4.jpg" height="225px" , width="225px" />
+        <div class="title">Cabbage<br />2.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item4)">Add to Cart</button>
+      </div>
+      </section>
+
+      <hr />
+      <section id="milk">
+      <div class="card" id="item5">
+        <img src="Img/milk1.jpg" height="225px" , width="225px" />
+        <div class="title">Milk 300ml<br />2.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item5)">Add to Cart</button>
+      </div>
+      <div class="card" id="item6">
+        <img src="Img/milk2.jpg" height="225px" , width="225px" />
+        <div class="title">Milk 1Lt<br />4.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item6)">Add to Cart</button>
+      </div>
+      <div class="card" id="item7">
+        <img src="Img/milk3.jpg" height="225px" , width="225px" />
+        <div class="title">Greek Yoghurt<br />2.5$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item7)">Add to Cart</button>
+      </div>
+      <div class="card" id="item8">
+        <img src="Img/milk4.jpg" height="225px" , width="225px" />
+        <div class="title">Yoghurt<br />1.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item8)">Add to Cart</button>
+      </div>
+    </section>
+
+      <hr />
+      <section id="chips">
+
+      <div class="card" id="item9">
+        <img src="Img/chips1.jpg" height="225px" , width="225px" />
+        <div class="title">Lay's Classic<br />4.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item9)">Add to Cart</button>
+      </div>
+      <div class="card" id="item10">
+        <img src="Img/chips2.jpg" height="225px" , width="225px" />
+        <div class="title">Lay's India's Magic<br />4.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item10)">Add to Cart</button>
+      </div>
+      <div class="card" id="item11">
+        <img src="Img/chips3.jpg" height="225px" , width="225px" />
+        <div class="title">Lay's Barbecue<br />4.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item11)">Add to Cart</button>
+      </div>
+      <div class="card" id="item12">
+        <img src="Img/chips4.jpg" height="225px" , width="225px" />
+        <div class="title">Lay's Lemon<br />4.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item12)">Add to Cart</button>
+      </div>
+</section>
+      <hr />
+      <section id="chocolate">
+
+      <div class="card" id="item13">
+        <img src="Img/chocolate1.jpg" height="225px" , width="225px" />
+        <div class="title">Kit Kat<br />1.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item13)">Add to Cart</button>
+      </div>
+      <div class="card" id="item14">
+        <img src="Img/chocolate2.jpg" height="225px" , width="225px" />
+        <div class="title">Kinder<br />2.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item14)">Add to Cart</button>
+      </div>
+      <div class="card" id="item15">
+        <img src="Img/chocolate3.jpg" height="225px" , width="225px" />
+        <div class="title">Twix<br />2.0$</div>
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item15)">Add to Cart</button>
+      </div>
+      <div class="card" id="item16">
+        <img src="Img/chocolate4.jpg" height="225px" , width="225px" />
+        <div class="title">Cookies<br />3.5$</div>
+
+        <div>
+          <label>Quantity</label>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+        <button onclick="addToCart(item16)">Add to Cart</button>
+      </div>
+    </div>
+    </section>
+    <div class="cart" id = "cart">
+        <div class ="title">Cart</div><hr/>
+        <div id = "title"></div>
+    </div>
+    
+  <footer>
+    <div class="footer">
+      <p>Copyright © 2021, All Right Reserved Shaima Alshammary</p>
+    </div></footer>
+  </body>
+</html>
